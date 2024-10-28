@@ -71,6 +71,8 @@
                 android:id="@+id/imageView1"
                 android:layout_width="match_parent"
                 android:layout_height="235dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
                 app:srcCompat="@drawable/temp1" />
 
             <Button
@@ -88,7 +90,8 @@
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="235dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
                 app:srcCompat="@drawable/temp2" />
 
             <Button
@@ -106,7 +109,9 @@
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="235dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="20dp"
                 app:srcCompat="@drawable/temp3" />
 
             <Button
@@ -118,8 +123,8 @@
                 android:text="Select"
                 android:textAlignment="center"
                 android:textSize="12sp"
-                android:textStyle="bold" />
-
+                android:textStyle="bold"
+                android:layout_marginBottom="35dp"/>
         </LinearLayout>
     </ScrollView>
 

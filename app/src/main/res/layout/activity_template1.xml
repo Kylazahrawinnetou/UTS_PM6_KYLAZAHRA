@@ -21,12 +21,14 @@
 
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="200dp">
+                    android:layout_height="250dp">
 
                     <ImageView
                         android:id="@+id/temp1bg1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
                         android:src="@drawable/temp1bg1"
                         android:scaleType="centerCrop"
                         android:contentDescription="@string/image_desc" />
@@ -46,20 +48,23 @@
                         android:inputType="textMultiLine"
                         android:singleLine="false"
                         android:hint="Enter greeting" />
+
                 </FrameLayout>
 
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="200dp">
+                    android:layout_height="250dp">
 
-                <ImageView
-                    android:id="@+id/temp1bg2"
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:paddingTop="40dp"
-                    android:src="@drawable/temp1bg2"
-                    android:scaleType="centerCrop"
-                    android:contentDescription="@string/image_desc" />
+                    <ImageView
+                        android:id="@+id/temp1bg2"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:paddingTop="30dp"
+                        android:src="@drawable/temp1bg2"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@string/image_desc" />
 
                     <EditText
                         android:id="@+id/editTexttemp1bg2"
@@ -72,32 +77,85 @@
                         android:hint="Enter greeting"
                         android:inputType="textMultiLine"
                         android:singleLine="false"
-                        android:text="I’m so glad we met and became friends\nYour laughter brightens my days\nand I cherish every moment we share\nHere’s to celebrating you today and making\nmore unforgettable memories together\nCheers to another year of adventures and laughter\nlove ♡ "
+                        android:layout_marginTop="17dp"
+                        android:text="From : Michie\n\nI’m so glad we met and became friends\nYour laughter brightens my days\nand I cherish every moment we share"
                         android:textColor="#E91E63"
                         android:textSize="14sp"
-                        android:textStyle="normal" />
+                        android:textStyle="normal"/>
+
                 </FrameLayout>
-                <!-- Background 3 -->
+
+                <FrameLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp">
+
                 <ImageView
                     android:id="@+id/temp1bg3"
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:paddingTop="40dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:paddingTop="30dp"
                     android:src="@drawable/temp1bg3"
                     android:scaleType="centerCrop"
                     android:contentDescription="@string/image_desc" />
 
-                <!-- Background 4 -->
-                <ImageView
-                    android:id="@+id/temp1bg4"
+                    <EditText
+                        android:id="@+id/editTexttemp1bg3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="17dp"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:hint="Enter greeting"
+                        android:inputType="textMultiLine"
+                        android:singleLine="false"
+                        android:text="✾ ❀ ❁ ❃ ⚜"
+                        android:textColor="#F2F2F2"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                </FrameLayout>
+
+                <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:paddingTop="40dp"
-                    android:src="@drawable/temp1bg4"
-                    android:scaleType="centerCrop"
-                    android:contentDescription="@string/image_desc" />
+                    android:layout_height="250dp">
+
+                    <ImageView
+                        android:id="@+id/temp1bg4"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:paddingTop="30dp"
+                        android:src="@drawable/temp1bg4"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@string/image_desc" />
+
+                    <EditText
+                        android:id="@+id/editTexttemp1bg4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="17dp"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:hint="Enter greeting"
+                        android:inputType="textMultiLine"
+                        android:singleLine="false"
+                        android:text="بَارَكَ اللَّهُ فِي عُمْرِك\nMay this year bring you endless joy and fulfillment\nI hope every day is filled with blessings, love\nand happiness\n\nOnce again,\nHAPPY BIRTHDAY GEORGEUS"
+                        android:textColor="#E91E63"
+                        android:textSize="14sp"
+                        android:textStyle="normal" />
+
+                </FrameLayout>
 
             </LinearLayout>
+
         </ScrollView>
 
     </FrameLayout>
