@@ -48,7 +48,10 @@
                         android:hint="Enter greeting" />
                 </FrameLayout>
 
-                <!-- Background 2 -->
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
                 <ImageView
                     android:id="@+id/temp1bg2"
                     android:layout_width="match_parent"
@@ -58,6 +61,22 @@
                     android:scaleType="centerCrop"
                     android:contentDescription="@string/image_desc" />
 
+                    <EditText
+                        android:id="@+id/editTexttemp1bg2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:hint="Enter greeting"
+                        android:inputType="textMultiLine"
+                        android:singleLine="false"
+                        android:text="I’m so glad we met and became friends\nYour laughter brightens my days\nand I cherish every moment we share\nHere’s to celebrating you today and making\nmore unforgettable memories together\nCheers to another year of adventures and laughter\nlove ♡ "
+                        android:textColor="#E91E63"
+                        android:textSize="14sp"
+                        android:textStyle="normal" />
+                </FrameLayout>
                 <!-- Background 3 -->
                 <ImageView
                     android:id="@+id/temp1bg3"
