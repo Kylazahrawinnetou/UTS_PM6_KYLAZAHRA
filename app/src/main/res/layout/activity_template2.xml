@@ -1,0 +1,85 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TemplateActivity1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:id="@+id/temp2bg1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/temp2bg1"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@string/image_desc" />
+
+                    <EditText
+                        android:id="@+id/editTexttemp2bg1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="✧ HAPPY BIRTHDAY ✧\nTO THE BRIGHTEST STAR"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:inputType="textMultiLine"
+                        android:singleLine="false"
+                        android:textColor="#673AB7"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <!-- Background 2 -->
+                <ImageView
+                    android:id="@+id/temp2bg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:paddingTop="40dp"
+                    android:src="@drawable/temp2bg2"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/image_desc" />
+
+                <!-- Background 3 -->
+                <ImageView
+                    android:id="@+id/temp2bg3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:paddingTop="40dp"
+                    android:src="@drawable/temp2bg3"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/image_desc" />
+
+                <!-- Background 4 -->
+                <ImageView
+                    android:id="@+id/temp2bg4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:paddingTop="40dp"
+                    android:src="@drawable/temp2bg4"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/image_desc" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
