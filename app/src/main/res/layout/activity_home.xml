@@ -92,6 +92,7 @@
                 android:layout_height="235dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
+                android:layout_marginTop="20dp"
                 app:srcCompat="@drawable/temp2" />
 
             <Button
@@ -125,7 +126,9 @@
                 android:textSize="12sp"
                 android:textStyle="bold"
                 android:layout_marginBottom="35dp"/>
+
         </LinearLayout>
+
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -11,8 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light"
         tools:targetApi="31">
-
-        <!-- Menjadikan HomeActivity sebagai launcher -->
+        <activity
+            android:name=".PrintActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".PrintActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PrintActivity1"
+            android:exported="false" />
         <activity
             android:name=".HomeActivity"
             android:exported="true">
@@ -21,7 +29,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".TemplateActivity2"
             android:exported="false" />
@@ -31,7 +38,6 @@
         <activity
             android:name=".TemplateActivity3"
             android:exported="false" />
-
     </application>
 
 </manifest>

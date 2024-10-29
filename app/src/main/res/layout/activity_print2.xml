@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TemplateActivity1">
+    tools:context=".PrintActivity2">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -23,29 +24,25 @@
                     android:layout_height="250dp">
 
                     <ImageView
-                        android:id="@+id/temp3bg1"
+                        android:id="@+id/temp2bg1"
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
-                        android:layout_marginLeft="16dp"
-                        android:layout_marginRight="16dp"
-                        android:src="@drawable/temp3bg1"
+                        android:src="@drawable/temp2bg1"
                         android:scaleType="centerCrop"
                         android:contentDescription="@string/image_desc" />
 
-                    <EditText
-                        android:id="@+id/editTexttemp3bg1"
+                    <TextView
+                        android:id="@+id/textViewtemp2bg1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
+                        android:text="Default Text"
+                        android:layout_gravity="center"
                         android:background="@android:color/transparent"
                         android:fontFamily="sans-serif-black"
                         android:gravity="center"
-                        android:inputType="textMultiLine"
-                        android:paddingTop="32dp"
                         android:singleLine="false"
-                        android:text="YO!\nWISH YOU THE BEST BRO!"
-                        android:textColor="#FFFFFF"
-                        android:textSize="18sp"
+                        android:textColor="#673AB7"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                 </FrameLayout>
@@ -55,60 +52,22 @@
                     android:layout_height="250dp">
 
                     <ImageView
-                        android:id="@+id/temp3bg2"
+                        android:id="@+id/temp2bg2"
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
-                        android:layout_marginLeft="16dp"
-                        android:layout_marginRight="16dp"
-                        android:paddingTop="30dp"
-                        android:src="@drawable/temp3bg2"
+                        android:src="@drawable/temp2bg2"
                         android:scaleType="centerCrop"
                         android:contentDescription="@string/image_desc" />
 
-                    <EditText
-                        android:id="@+id/editTexttemp3bg2"
+                    <TextView
+                        android:id="@+id/textViewtemp2bg2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="17dp"
-                        android:text="⍟ ✵ 🕸️ ♕ ☆"
                         android:layout_gravity="center"
+                        android:text="Default Text"
                         android:background="@android:color/transparent"
                         android:fontFamily="sans-serif-black"
                         android:gravity="center"
-                        android:inputType="textMultiLine"
-                        android:singleLine="false"
-                        android:textColor="#673AB7"
-                        android:textSize="20sp"
-                        android:textStyle="normal" />
-
-                </FrameLayout>
-
-                <FrameLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="250dp">
-
-                    <ImageView
-                        android:id="@+id/temp3bg3"
-                        android:layout_width="match_parent"
-                        android:layout_height="250dp"
-                        android:layout_marginLeft="16dp"
-                        android:layout_marginRight="16dp"
-                        android:paddingTop="30dp"
-                        android:src="@drawable/temp3bg3"
-                        android:scaleType="centerCrop"
-                        android:contentDescription="@string/image_desc" />
-
-                    <EditText
-                        android:id="@+id/editTexttemp3bg3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="17dp"
-                        android:text="From : Michie\n\nI’m so glad we met and became friends\nYour laughter brightens my days\nand I cherish every moment we share"
-                        android:layout_gravity="center"
-                        android:background="@android:color/transparent"
-                        android:fontFamily="sans-serif-black"
-                        android:gravity="center"
-                        android:inputType="textMultiLine"
                         android:singleLine="false"
                         android:textColor="#673AB7"
                         android:textSize="14sp"
@@ -121,46 +80,58 @@
                     android:layout_height="250dp">
 
                     <ImageView
-                        android:id="@+id/temp3bg4"
+                        android:id="@+id/temp2bg3"
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
-                        android:layout_marginLeft="16dp"
-                        android:layout_marginRight="16dp"
-                        android:paddingTop="30dp"
-                        android:src="@drawable/temp3bg4"
+                        android:src="@drawable/temp2bg3"
                         android:scaleType="centerCrop"
                         android:contentDescription="@string/image_desc" />
 
-                    <EditText
-                        android:id="@+id/editTexttemp3bg4"
+                    <TextView
+                        android:id="@+id/textViewtemp2bg3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="17dp"
-                        android:text="بَارَكَ اللَّهُ فِي عُمْرِك\nMay this year bring you endless joy and fulfillment\nI hope every day is filled with blessings, love\nand happiness\n\nOnce again,\nHAPPY BIRTHDAY BRO"
                         android:layout_gravity="center"
+                        android:layout_marginTop="17dp"
                         android:background="@android:color/transparent"
                         android:fontFamily="sans-serif-black"
                         android:gravity="center"
-                        android:inputType="textMultiLine"
                         android:singleLine="false"
-                        android:textColor="#673AB7"
+                        android:text="Default Text"
+                        android:textColor="#000000"
                         android:textSize="14sp"
                         android:textStyle="normal" />
 
                 </FrameLayout>
 
-                <Button
-                    android:id="@+id/buttonprint3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:backgroundTint="#A5D9EF"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginBottom="10dp"
-                    android:text="Print Card"
-                    android:textAlignment="center"
-                    android:textSize="12dp"
-                    android:textStyle="bold" />
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp">
+
+                    <ImageView
+                        android:id="@+id/temp2bg4"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/temp2bg4"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@string/image_desc" />
+
+                    <TextView
+                        android:id="@+id/textViewtemp2bg4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:singleLine="false"
+                        android:text="Default Text"
+                        android:textColor="#4A05AF"
+                        android:textSize="14dp"
+                        android:textStyle="normal" />
+
+                </FrameLayout>
 
             </LinearLayout>
 
