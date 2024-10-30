@@ -18,25 +18,19 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        // Inisialisasi SharedPreferences
         sharedPreferences = getSharedPreferences("ThemePrefs", MODE_PRIVATE)
 
-        // Cek dan set tema berdasarkan preferensi yang disimpan
         val isDarkMode = sharedPreferences.getBoolean("dark_mode", false)
         setAppTheme(isDarkMode)
 
-        // Inisialisasi Switch
         themeSwitch = findViewById(R.id.themeSwitch)
         themeSwitch.isChecked = isDarkMode
 
-        // Listener untuk Switch
         themeSwitch.setOnCheckedChangeListener { _, isChecked ->
             setAppTheme(isChecked)
-            // Simpan preferensi
             sharedPreferences.edit().putBoolean("dark_mode", isChecked).apply()
         }
 
-        // Inisialisasi tombol
         val button1: Button = findViewById(R.id.button1)
         val button2: Button = findViewById(R.id.button2)
         val button3: Button = findViewById(R.id.button3)

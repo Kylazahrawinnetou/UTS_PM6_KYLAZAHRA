@@ -4,8 +4,8 @@
         <item name="colorPrimary">@color/colorPrimaryDark</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDarkDark</item>
         <item name="colorAccent">@color/colorAccentDark</item>
-        <item name="android:textColor">@color/textColorDark</item> <!-- Warna teks untuk mode gelap -->
-        <item name="android:background">@color/backgroundDark</item> <!-- Warna latar belakang untuk mode gelap -->
+        <item name="android:textColor">@color/textColorDark</item>
+        <item name="android:background">@color/backgroundDark</item>
     </style>
 </resources>
 

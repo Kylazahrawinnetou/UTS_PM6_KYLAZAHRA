@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Tema Terang -->
+
     <color name="colorPrimaryLight">#FFFFFF</color>
     <color name="colorPrimaryDarkLight">#F9BFE4</color>
     <color name="colorAccentLight">#F53D64</color>
-    <color name="textColorLight">#000000</color> <!-- Warna teks untuk mode terang -->
+    <color name="textColorLight">#000000</color>
     <color name="backgroundLight">#FFFFFF</color>
 
-    <!-- Tema Gelap -->
     <color name="colorPrimaryDark">#FBAFBF</color>
     <color name="colorPrimaryDarkDark">#ED45B1</color>
     <color name="colorAccentDark">#DD1596</color>
-    <color name="textColorDark">#FFFFFF</color> <!-- Warna teks untuk mode gelap -->
+    <color name="textColorDark">#FFFFFF</color>
     <color name="backgroundDark">#F494D2</color>
 </resources>
 

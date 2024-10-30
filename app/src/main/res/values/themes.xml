@@ -4,8 +4,8 @@
         <item name="colorPrimary">@color/colorPrimaryLight</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDarkLight</item>
         <item name="colorAccent">@color/colorAccentLight</item>
-        <item name="android:textColor">@color/textColorLight</item> <!-- Warna teks untuk mode terang -->
-        <item name="android:background">@color/backgroundLight</item> <!-- Warna latar belakang untuk mode terang -->
+        <item name="android:textColor">@color/textColorLight</item>
+        <item name="android:background">@color/backgroundLight</item>
     </style>
 </resources>
 
