@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BirthdayCardApp" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDark</item>
+        <item name="colorAccent">@color/colorAccentDark</item>
+        <item name="android:textColor">@color/textColorDark</item> <!-- Warna teks untuk mode gelap -->
+        <item name="android:background">@color/backgroundDark</item> <!-- Warna latar belakang untuk mode gelap -->
+    </style>
+</resources>
+
+
+
+
+
